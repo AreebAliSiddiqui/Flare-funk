@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 
 *{
@@ -42,7 +43,7 @@ body{
 .head1{
     font-size: 25px;
     margin-top: 5px;
-    color: #FE4D21;
+    color: #ea6928; 
 }
 
 .logo img{
@@ -60,6 +61,11 @@ body{
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
+    color: black
+}
+
+.link:hover{
+    color: #ea6928;
 }
 
 /* hero section */
@@ -71,4 +77,140 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.headarea{
+    height: 400px;
+    width: 600px;
+    position:absolute ;
+    top: 150px;
+    left: 180px;
+    
+}
+
+.head2{
+   font-family: "Dancing Script", cursive;
+   font-size: 50px;
+   line-height: 50px;
+   color: #ea6928; 
+}
+
+.head3{
+    font-size: 90px;
+    line-height: 85px;
+    color: #2b6667;
+    
+}
+
+.head4{
+    font-size: 90px;
+    line-height: 90px;
+    color: #ea6928;    
+}
+
+.flex{
+    display: flex;
+}
+
+.child{
+    margin-top: 30px;
+}
+
+.head5{
+    padding-left: 20px;
+    line-height: 25px;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.textarea{
+    margin-top: 20px;
+    width: 400px;
+    font-weight: 500;
+}
+
+.explore{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.btn1{
+    width: 240px;
+    height: 40px;
+    font-size: 17px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color:#ea6928 ;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.btn1:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+
+}
+
+/* main section */
+
+.main{
+    width: 100%;
+    height: 850px;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about{
+    position: relative;
+    width: 400px;
+    left: 35px;
+    top: 55px;
+}
+
+.head6{
+    color: #ea6928;
+}
+
+.head7{
+    font-weight: bold;
+    line-height: 20px;
+    padding-bottom: 25px;
+
+}
+
+.more{
+    text-decoration: none;
+}
+
+.btn2{
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color:#2b6667 ;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.btn2:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+
+}
+
+
+.aboutimg img{
+    width: 600px;
+    margin-top: 30px;
+    
 }
