@@ -419,7 +419,7 @@ body {
     width: 100px;
 }
 
-.footerhead{
+.footerhead {
     color: white;
     font-size: 30px;
 }
@@ -449,22 +449,22 @@ ul li a {
     color: white;
 }
 
-.footer-contact{
+.footer-contact {
     margin-top: 60px;
-    
+
 }
 
-.footerhead2{
+.footerhead2 {
     color: white;
     font-size: 30px;
 }
 
-.contacts{
+.contacts {
     color: white;
     margin-top: 40px;
 }
 
-.contacts1{
+.contacts1 {
     color: white;
     margin-top: 20px;
 }
@@ -480,13 +480,13 @@ ul li a {
     align-items: center;
 }
 
-.copyright{
+.copyright {
     color: white;
     padding-left: 40px;
 
 }
 
-.copyright1{
+.copyright1 {
     color: white;
     padding-right: 40px;
 
