@@ -675,10 +675,6 @@ ul li a:hover{
 
 }
 
-#hamburger{
-    font-size: 15px;
-
-}
 .menu{
     display: none;
 }
@@ -687,7 +683,7 @@ ul li a:hover{
     color: white;
     display: block;
     margin-right:20px ;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 
