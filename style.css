@@ -74,12 +74,17 @@ body {
     color: #ea6928;
 }
 
+#hamburger{
+    color: white;
+    display: none;
+}
+
 /* hero section */
 
 .hero {
     width: 100%;
     height: 85%;
-    background-image: url(images/hero1.png);
+    background-image: url(images/hero2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -409,6 +414,9 @@ body {
     color: black;
 }
 
+#ig:hover{
+    color: pink;
+}
 
 
 .sign {
@@ -447,6 +455,10 @@ ul li {
 ul li a {
     text-decoration: none;
     color: white;
+}
+
+ul li a:hover{
+    color: #ea6928;
 }
 
 .footer-contact {
@@ -489,5 +501,245 @@ ul li a {
 .copyright1 {
     color: white;
     padding-right: 40px;
+
+}
+
+/* media query */
+
+@media (max-width:1180px){
+     .hero {
+    width: 100%;
+    height: 85%;
+    background-image: url(images/hero2.png);
+    background-repeat: no-repeat;
+    background-size: 1200px 650px;
+    background-position:center;
+}
+}
+
+@media (max-width:1099px){
+     .hero {
+    width: 100%;
+    height: 85%;
+    background-image: url(images/hero2.png);
+    background-repeat: no-repeat;
+    background-size: 1100px 600px;
+    background-position: top center;
+     }
+.headarea {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 135px;
+
+}
+
+.head2 {
+    font-size: 43px;
+    line-height: 50px;
+   
+}
+
+.head3 {
+    font-size: 80px;
+    line-height: 75px;
+}
+
+.head4 {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.head5 {
+    padding-left: 10px;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.textarea {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.btn1 {
+    width: 220px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+}
+
+@media (max-width:1024px){
+
+    .hero {
+    width: 100%;
+    height: 85%;
+    background-image: url(images/hero2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top center;
+}
+
+.menu{
+    display: none;
+}
+
+#hamburger{
+    color: white;
+    display: block;
+    margin-right:20px ;
+    font-size: 22px;
+}
+
+
+.headarea {
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+.head2 {
+    font-size: 28px;
+    line-height: 30px;
+   
+}
+
+.head3 {
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.head4 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.child {
+    margin-top: 14px;
+}
+
+.head5 {
+    padding-left: 5px;
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.textarea {
+    margin-top: 8px;
+    font-weight: 300;
+    width: 300px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.btn1 {
+    width: 180px;
+    height: 28px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+}
+
+@media (max-width:768px){
+
+    .hero {
+    width: 100%;
+    height: 85%;
+    background-image: url(images/hero2.png);
+    background-repeat: no-repeat;
+    background-size: contain 400px ;
+    background-position:top center;
+}
+
+.navbar {
+    height: 35px; 
+}
+
+.head1 {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #ea6928;
+}
+
+.logo img {
+    width: 50px;
+    margin-left: 20px;
+
+}
+
+#hamburger{
+    font-size: 15px;
+
+}
+.menu{
+    display: none;
+}
+
+#hamburger{
+    color: white;
+    display: block;
+    margin-right:20px ;
+    font-size: 22px;
+}
+
+
+.headarea {
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+.head2 {
+    font-size: 28px;
+    line-height: 30px;
+   
+}
+
+.head3 {
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.head4 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.child {
+    margin-top: 14px;
+}
+
+.head5 {
+    padding-left: 5px;
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.textarea {
+    margin-top: 8px;
+    font-weight: 300;
+    width: 300px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.btn1 {
+    width: 180px;
+    height: 28px;
+    font-size: 13px;
+    margin-top: 20px;
+}
 
 }
