@@ -1142,14 +1142,36 @@ ul li a:hover{
 
     /* Hide desktop menu */
 
+
     .menu {
         display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 30%;
+        background: #FCEFEB;
+        border-radius: 10px;
+        padding: 20px 0;
+        text-align: center;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
     }
 
-    /* Show hamburger */
+    /* When menu is opened */
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link {
+        padding: 12px 0;
+        font-size: 16px;
+        width: 100%;
+    }
 
     #hamburger {
         display: block;
+        color: #ea6928;
         font-size: 25px;
         margin-right: 20px;
         cursor: pointer;
