@@ -84,7 +84,7 @@ body {
 
 .hero {
     width: 100%;
-    height: 85%;
+    height: 75%;
     background-image: url(images/hero2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,28 +95,28 @@ body {
     height: 400px;
     width: 600px;
     position: absolute;
-    top: 150px;
-    left: 180px;
+    top: 200px;
+    left: 120px;
 
 }
 
 .head2 {
     font-family: "Dancing Script", cursive;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 50px;
     color: #ea6928;
 }
 
 .head3 {
-    font-size: 90px;
-    line-height: 85px;
+    font-size: 70px;
+    line-height: 75px;
     color: #2b6667;
 
 }
 
 .head4 {
-    font-size: 90px;
-    line-height: 90px;
+    font-size: 80px;
+    line-height: 80px;
     color: #ea6928;
 }
 
@@ -125,7 +125,7 @@ body {
 }
 
 .child {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .head5 {
@@ -240,7 +240,7 @@ body {
 
 /* models */
 .models {
-    padding: 25px 8%;
+    padding: 25px 15%;
     scroll-margin-top: 100px;
 
 }
@@ -249,6 +249,7 @@ body {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 .swiper-slide {
@@ -261,6 +262,8 @@ body {
 
     box-shadow: 0 10px 25px rgba(0, 0, 0, .1);
 
+    margin-bottom: 50px;
+
     transition: .4s;
 }
 
@@ -272,7 +275,7 @@ body {
 
     width: 100%;
 
-    height: 400px;
+    height: 350px;
 
     object-fit: cover;
 
@@ -302,12 +305,12 @@ body {
 
 /* our team */
 
-.team {
+/* .team {
 
-    padding: 70px 8%;
-    scroll-margin-top: 30px;
+    padding: 70px ;
+    /* scroll-margin-top: 30px; */
 
-}
+
 
 .team h2 {
 
@@ -327,6 +330,7 @@ body {
     color: #666;
 }
 
+/* 
 .team .swiper-slide {
 
 
@@ -372,7 +376,7 @@ body {
     margin-top: 20px;
 
     font-size: 1.3rem;
-}
+} */
 
 .team .swiper-slide span {
 
@@ -385,7 +389,7 @@ body {
     color: #ff7b29;
 
     font-weight: 600;
-}
+} 
 
 /* footer */
 
@@ -760,6 +764,68 @@ ul li a:hover{
    1024px
    ========================= */
 
+@media(max-width:1200px){
+    .models {
+    padding: 25px 10%;
+    scroll-margin-top: 100px;
+
+}
+
+.hero {
+        height: 600px;
+        background-position: center;
+    }
+
+
+      .headarea {
+        width: 500px;
+        left: 120px;
+        top: 150px;
+    }
+
+    .head2 {
+        font-size: 40px;
+    }
+
+    .head3,
+    .head4 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+
+    .child {
+    margin-top: 20px;
+}
+
+
+    .head5 {
+        font-size: 17px;
+        line-height: 18px;
+    }
+
+    .textarea {
+        width: 350px;
+    }
+
+
+
+}
+@media(max-width:1075px){
+    .models {
+    padding: 25px 7%;
+    scroll-margin-top: 100px;
+
+}
+
+.hero {
+        height: 600px;
+        background-position: center;
+    }
+
+
+}
+
 @media (max-width: 1024px) {
 
     /* Navbar */
@@ -784,7 +850,7 @@ ul li a:hover{
 
     /* Hero */
     .hero {
-        height: 750px;
+        height: 600px;
         background-position: center;
     }
 
@@ -805,7 +871,8 @@ ul li a:hover{
     }
 
     .head5 {
-        font-size: 18px;
+        font-size: 17px;
+        line-height: 18px;
     }
 
     .textarea {
@@ -819,8 +886,12 @@ ul li a:hover{
     }
 
     .about {
-        width: 350px;
+        width: 250px;
         left: 0;
+    }
+
+    .para2{
+        font-size: 17px;
     }
 
     .aboutimg img {
@@ -830,8 +901,8 @@ ul li a:hover{
 
     /* Models */
     .models {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 
     .swiper-slide img {
@@ -841,8 +912,8 @@ ul li a:hover{
 
     /* Team */
     .team {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 
     .team .swiper-slide img {
@@ -878,12 +949,12 @@ ul li a:hover{
     }
 
     .logo img {
-        width: 60px;
+        width: 40px;
         margin-left: 15px;
     }
 
     .head1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .menu {
@@ -891,39 +962,46 @@ ul li a:hover{
     }
 
     .link {
-        padding-left: 10px;
-        font-size: 13px;
+        padding-left: 8px;
+        font-size: 11px;
     }
 
 
     /* Hero */
 
     .hero {
-        height: 700px;
-        background-position: center;
+        height: 470px;
+        background-position: left;
+        background-size: cover;
     }
 
     .headarea {
         width: 90%;
-        left: 5%;
+        left: 7%;
         top: 130px;
     }
 
     .head2 {
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 35px;
+        line-height: 40px;
     }
 
     .head3,
     .head4 {
-        font-size: 60px;
-        line-height: 65px;
+        font-size: 55px;
+        line-height: 60px;
     }
 
+
+    .child {
+    margin-top: 22px;
+}
+
+
     .head5 {
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 15px;
-        line-height: 22px;
+        line-height: 15px;
     }
 
     .textarea {
@@ -932,9 +1010,9 @@ ul li a:hover{
     }
 
     .btn1 {
-        width: 210px;
-        height: 40px;
-        font-size: 15px;
+        width: 190px;
+        height: 35px;
+        font-size: 13px;
     }
 
 
@@ -961,13 +1039,23 @@ ul li a:hover{
     /* Models */
 
     .models {
-        padding: 25px 5%;
+        padding: 25px 10%;
     }
 
     .models h2 {
         font-size: 2rem;
         margin-bottom: 30px;
     }
+    
+    .swiper-slide h3 {
+
+    padding: 20px;
+
+    text-align: center;
+
+    font-size: 1rem;
+}
+
 
     .swiper-slide img {
         height: 320px;
@@ -1069,15 +1157,16 @@ ul li a:hover{
     /* Hero */
 
     .hero {
-        height: 650px;
-        background-position: center;
+        height: 450px;
+        width: 100%;
+        background-position: left;
     }
 
     .headarea {
-        width: 90%;
+        width: 80%;
         height: auto;
-        left: 5%;
-        top: 120px;
+        left: 8%;
+        top: 140px;
     }
 
     .head2 {
@@ -1096,12 +1185,12 @@ ul li a:hover{
     }
 
     .child {
-        margin-top: 15px;
+        margin-top: 18px;
     }
 
     .head5 {
-        font-size: 12px;
-        line-height: 17px;
+        font-size: 11px;
+        line-height: 14px;
         padding-left: 10px;
     }
 
@@ -1112,9 +1201,9 @@ ul li a:hover{
     }
 
     .btn1 {
-        width: 190px;
-        height: 40px;
-        font-size: 13px;
+        width: 170px;
+        height: 35px;
+        font-size: 12px;
         margin-top: 20px;
     }
 
@@ -1160,7 +1249,7 @@ ul li a:hover{
     /* Models */
 
     .models {
-        padding: 30px 7%;
+        padding: 30px 15%;
     }
 
     .models h2 {
@@ -1169,7 +1258,7 @@ ul li a:hover{
     }
 
     .swiper-slide img {
-        height: 350px;
+        height: 300px;
     }
 
     .swiper-slide h3 {
@@ -1181,7 +1270,7 @@ ul li a:hover{
     /* Team */
 
     .team {
-        padding: 40px 7%;
+        padding: 40px 4%;
     }
 
     .team h2 {
@@ -1194,7 +1283,7 @@ ul li a:hover{
     }
 
     .team .swiper-slide img {
-        height: 350px;
+        height: 300px;
     }
 
     .team .swiper-slide h3 {
@@ -1302,12 +1391,20 @@ ul li a:hover{
 
     /* Hero */
 
+
+    .hero {
+        height: 400px;
+        
+        background-position: left;
+    }
+
+
     .headarea {
         top: 110px;
     }
 
     .head2 {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 35px;
     }
 
@@ -1317,9 +1414,14 @@ ul li a:hover{
         line-height: 44px;
     }
 
+    .child {
+    margin-top: 17px;
+}
+
+
     .head5 {
         font-size: 10px;
-        line-height: 14px;
+        line-height: 11px;
     }
 
     .textarea {
@@ -1327,8 +1429,8 @@ ul li a:hover{
     }
 
     .btn1 {
-        width: 170px;
-        font-size: 12px;
+        width: 130px;
+        font-size: 10px;
     }
 
 
