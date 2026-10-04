@@ -19,7 +19,7 @@ breakpoints: {
 slidesPerView: 1,
 },
 
-490: {
+480: {
 slidesPerView: 2,
 },
 
@@ -61,7 +61,7 @@ breakpoints:{
 slidesPerView:1,
 },
 
-490: {
+480: {
 slidesPerView: 2,
 },
 

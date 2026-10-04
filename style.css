@@ -856,7 +856,7 @@ ul li a:hover{
 
     .headarea {
         width: 500px;
-        left: 80px;
+        left: 50px;
         top: 150px;
     }
 
@@ -886,16 +886,16 @@ ul li a:hover{
     }
 
     .about {
-        width: 250px;
+        width: 280px;
         left: 0;
     }
 
     .para2{
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .aboutimg img {
-        width: 450px;
+        width: 350px;
     }
 
 
@@ -978,7 +978,7 @@ ul li a:hover{
     .headarea {
         width: 90%;
         left: 7%;
-        top: 130px;
+        top: 110px;
     }
 
     .head2 {
@@ -1045,6 +1045,7 @@ ul li a:hover{
     .models h2 {
         font-size: 2rem;
         margin-bottom: 30px;
+        margin-top: 13px;
     }
     
     .swiper-slide h3 {
@@ -1070,6 +1071,7 @@ ul li a:hover{
 
     .team h2 {
         font-size: 2.3rem;
+        margin-top: 0px;
     }
 
     .team-subtitle {
@@ -1166,7 +1168,7 @@ ul li a:hover{
         width: 80%;
         height: auto;
         left: 8%;
-        top: 140px;
+        top: 120px;
     }
 
     .head2 {
@@ -1255,6 +1257,7 @@ ul li a:hover{
     .models h2 {
         font-size: 1.8rem;
         margin-bottom: 25px;
+        margin-top: 15px;
     }
 
     .swiper-slide img {
@@ -1275,6 +1278,8 @@ ul li a:hover{
 
     .team h2 {
         font-size: 2rem;
+        margin-top: 0px;
+
     }
 
     .team-subtitle {
@@ -1453,6 +1458,7 @@ ul li a:hover{
 
     .models h2 {
         font-size: 1.5rem;
+        margin-top: 10px;
     }
 
     .swiper-slide img {
@@ -1464,6 +1470,7 @@ ul li a:hover{
 
     .team h2 {
         font-size: 1.7rem;
+        margin-top: 0px;
     }
 
     .team-subtitle {
